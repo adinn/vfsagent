@@ -8,7 +8,7 @@ import org.jboss.virtual.spi.VirtualFileHandler;
  */
 public class VirtualFileHelper
 {
-    static VirtualFileHandler getHandle(VirtualFile file)
+    public static VirtualFileHandler getHandle(VirtualFile file)
     {
         // replace this with suitable magic
 
