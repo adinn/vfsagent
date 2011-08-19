@@ -17,10 +17,10 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Premain-Class>org.jboss.byteman.agent.Main</Premain-Class>
-                            <Agent-Class>org.jboss.byteman.agent.Main</Agent-Class>
+                            <Premain-Class>org.jboss.vfsagent.agent.Main</Premain-Class>
+                            <Agent-Class>org.jboss.vfsagent.agent.Main</Agent-Class>
                             <Can-Redefine-Classes>true</Can-Redefine-Classes>
-                            <Can-Retransform-Classes>true</Can-Retransform-Classes>
+                            <Can-Retransform-Classes>false</Can-Retransform-Classes>
                         </manifestEntries>
                     </archive>
                 </configuration>
